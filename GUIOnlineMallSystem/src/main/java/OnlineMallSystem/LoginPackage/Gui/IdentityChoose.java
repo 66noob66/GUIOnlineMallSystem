@@ -39,12 +39,12 @@ public class IdentityChoose extends Frame {
         userButton.setFont(font2);
 
         // 加载背景图像
-        BufferedImage image = null;
+       /* BufferedImage image = null;
         try {
             image = ImageIO.read(new File("C:\\Users\\86152\\Desktop\\ynu.png"));
         } catch (IOException e) {
             e.printStackTrace();
-        }
+        }*/
 
         // 创建显示图像的 JLabel
         JLabel backgroundLabel = new JLabel(new ImageIcon(image));
@@ -54,7 +54,7 @@ public class IdentityChoose extends Frame {
 
         frame.add(adminButton);
         frame.add(userButton);
-        frame.add(backgroundLabel);
+        /*frame.add(backgroundLabel);*/
         frame.setVisible(true);
     }
 
