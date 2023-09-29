@@ -1,3 +1,4 @@
 # GUIOnlineMallSystem
 
 注意不同电脑图片路径不同，本项目将图片相关代码注释化，有需要请将路径复制到IdentityChoose相应位置即能显示背景
+本项目使用java、sql编写，××xmyql类管理数据库相关代码，其余类管理gui界面上的侦听反馈
